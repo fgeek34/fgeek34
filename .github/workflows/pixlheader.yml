@@ -21,7 +21,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
 
           # --- Output + commit back to repo ---
-          filename: assets/header.svg          # path inside your repo
+          filename: assets/headerpixl.svg          # path inside your repo
           output_action: commit                 # commit the file
           committer_branch: main                # change if your default branch differs
           committer_message: "chore(metrics): update metrics"
