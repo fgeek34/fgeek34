@@ -37,14 +37,11 @@
 ---
 
 ### 📊 GitHub Stats  
-
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=fgeek34&theme=tokyonight" alt="GitHub streak"/>
+  <img src="./assets/metrics.svg" alt="GitHub Metrics" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=fgeek34&show_icons=true&layout=compact&theme=tokyonight" alt="Top languages"/>
-</p>
+
 
 ---
 
