@@ -1,4 +1,4 @@
-name: header
+name: pixlheader
 
 on:
   schedule:
