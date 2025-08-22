@@ -1,4 +1,6 @@
-<h1 align="center">Hi 👋, I'm Essam Abdelhamid</h1>
+<p align="center">
+  <img src="header.png" alt="Header Banner" width="100%" />
+</p>
 <h3 align="center">From Code to Pixel — Crafting Human-Centered Apps</h3>
 
 <p align="center">
