@@ -40,9 +40,10 @@
 <table align="center">
   <tr>
     <td colspan="1" align="center"><img src="./assets/header.svg" alt="Languages" /></td>
+    <td colspan="2" align="center"><img src="./assets/headerpixl.svg" alt="Languages" /></td>
   </tr>
   <tr>
-    <td colspan="2"><img src="./assets/metrics.svg" alt="Main Metrics" /></td>
+    <td colspan="1"><img src="./assets/metrics.svg" alt="Main Metrics" /></td>
     <td colspan="2"><img src="./assets/followup.svg" alt="Follow Up" /></td>
   </tr>
   <tr>
