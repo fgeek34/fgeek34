@@ -1,0 +1,20 @@
+name: Metrics
+
+on:
+  # Run once a day
+  schedule: 
+    - cron: "0 0 * * *"
+  # Allow running manually
+  workflow_dispatch:
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate Metrics
+        uses: lowlighter/metrics@v3.34
+        with:
+          # Replace with your GitHub username
+          user: fgeek34
+          # GitHub token with repo scope (create one in Settings > Developer settings > PAT)
+          token: ${{ secrets.METRICS_TOKEN }}
