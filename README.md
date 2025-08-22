@@ -37,9 +37,16 @@
 ---
 
 ### 📊 GitHub Stats  
-<p align="center">
-  <img src="./assets/metrics.svg" alt="GitHub Metrics" />
-</p>
+<table align="center">
+  <tr>
+    <td><img src="./assets/metrics.svg" alt="Main Metrics" /></td>
+    <td><img src="./assets/followup.svg" alt="Follow Up" /></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><img src="./assets/language.svg" alt="Languages" /></td>
+  </tr>
+</table>
+
 
 
 
