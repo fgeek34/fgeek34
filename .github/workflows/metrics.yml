@@ -29,7 +29,6 @@ jobs:
 
           # --- Look & content ----
           template: classic
-          base: header, activity, community, repositories, metadata
 
           # --- Useful plugins (safe defaults) ---
           plugin_isocalendar: yes               # yearly contributions calendar
