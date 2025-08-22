@@ -27,7 +27,7 @@ jobs:
           committer_message: "chore(metrics): update metrics"
           config_timezone: America/Edmonton
 
-          # --- Look & content ---
+          # --- Look & content ----
           template: classic
           base: header, activity, community, repositories, metadata
 
