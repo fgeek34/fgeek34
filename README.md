@@ -39,11 +39,14 @@
 ### 📊 GitHub Stats  
 <table align="center">
   <tr>
-    <td><img src="./assets/metrics.svg" alt="Main Metrics" /></td>
-    <td><img src="./assets/followup.svg" alt="Follow Up" /></td>
+    <td colspan="1" align="center"><img src="./assets/header.svg" alt="Languages" /></td>
   </tr>
   <tr>
-    <td colspan="2" align="center"><img src="./assets/language.svg" alt="Languages" /></td>
+    <td colspan="2"><img src="./assets/metrics.svg" alt="Main Metrics" /></td>
+    <td colspan="2"><img src="./assets/followup.svg" alt="Follow Up" /></td>
+  </tr>
+  <tr>
+    <td colspan="3" align="center"><img src="./assets/language.svg" alt="Languages" /></td>
   </tr>
 </table>
 
