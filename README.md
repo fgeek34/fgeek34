@@ -27,17 +27,11 @@
 ---
 
 ### 🛠 Languages & Tools  
-<p align="left">
-<a href="https://reactjs.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" width="40" height="40"/></a>
-<a href="https://reactnative.dev/" target="_blank"><img src="https://reactnative.dev/img/header_logo.svg" width="40" height="40"/></a>
-<a href="https://www.typescriptlang.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="40" height="40"/></a>
-<a href="https://supabase.com/" target="_blank"><img src="https://seeklogo.com/images/S/supabase-logo-DCC676FFE2-seeklogo.com.png" width="40" height="40"/></a>
-<a href="https://firebase.google.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" width="40" height="40"/></a>
-<a href="https://nodejs.org" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" width="40" height="40"/></a>
-<a href="https://nextjs.org/" target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" width="40" height="40"/></a>
-<a href="https://vercel.com/" target="_blank"><img src="https://assets.vercel.com/image/upload/v1662130559/front/favicon/vercel/180x180.png" width="40" height="40"/></a>
-<a href="https://stripe.com" target="_blank"><img src="https://www.vectorlogo.zone/logos/stripe/stripe-icon.svg" width="40" height="40"/></a>
-<a href="https://docker.com" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" width="40" height="40"/></a>
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=docker,firebase,arduino,nodejs,azure,aws,docker,nextjs,cloudflare,electron,fastapi,flask,gcp,github,mysql,npm,postman,powershell,bash,linux,qt,raspberrypi,supabase,threejs,vue,vercel,cassandra,typescript,react" />
+  </a>
 </p>
 
 ---
