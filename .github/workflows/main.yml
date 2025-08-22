@@ -29,6 +29,7 @@ jobs:
 
           # --- Look & content ----
           template: classic
+          base: ""  
 
           # --- Useful plugins (safe defaults) ---
           plugin_followup: yes                  # issues / PRs counts
