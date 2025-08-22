@@ -1,0 +1,35 @@
+name: habit
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # daily at 06:00 UTC
+  workflow_dispatch:
+
+# Needed so the action can commit the generated SVG file to your repo
+permissions:
+  contents: write
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate profile metrics
+        uses: lowlighter/metrics@v3.34
+        with:
+          # --- Required ---
+          user: fgeek34
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          # --- Output + commit back to repo ---
+          filename: assets/habit.svg          # path inside your repo
+          output_action: commit                 # commit the file
+          committer_branch: main                # change if your default branch differs
+          committer_message: "chore(metrics): update metrics"
+          config_timezone: America/Edmonton
+
+          # --- Look & content ----
+          template: classic
+
+          # --- Useful plugins (safe defaults) ---
+          plugin_habits: yes                  # issues / PRs counts
+          
