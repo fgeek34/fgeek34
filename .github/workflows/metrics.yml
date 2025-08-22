@@ -1,20 +1,40 @@
 name: Metrics
 
 on:
-  # Run once a day
-  schedule: 
-    - cron: "0 0 * * *"
-  # Allow running manually
+  schedule:
+    - cron: "0 6 * * *"   # daily at 06:00 UTC
   workflow_dispatch:
+
+# Needed so the action can commit the generated SVG file to your repo
+permissions:
+  contents: write
 
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate Metrics
+      - name: Generate profile metrics
         uses: lowlighter/metrics@v3.34
         with:
-          # Replace with your GitHub username
+          # --- Required ---
           user: fgeek34
-          # GitHub token with repo scope (create one in Settings > Developer settings > PAT)
           token: ${{ secrets.METRICS_TOKEN }}
+
+          # --- Output + commit back to repo ---
+          filename: assets/metrics.svg          # path inside your repo
+          output_action: commit                 # commit the file
+          committer_branch: main                # change if your default branch differs
+          committer_message: "chore(metrics): update metrics"
+          config_timezone: America/Edmonton
+
+          # --- Look & content ---
+          template: classic
+          base: header, activity, community, repositories, metadata
+
+          # --- Useful plugins (safe defaults) ---
+          plugin_isocalendar: yes               # yearly contributions calendar
+          plugin_languages: yes                 # top languages
+          plugin_languages_details: percentage
+          plugin_languages_limit: 8
+          plugin_followup: yes                  # issues / PRs counts
+          plugin_repositories: yes              # pin popular repos
