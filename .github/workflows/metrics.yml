@@ -28,13 +28,9 @@ jobs:
           config_timezone: America/Edmonton
 
           # --- Look & content ----
-          template: notion
+          template: classic
           base: header, activity, community, repositories, metadata
 
           # --- Useful plugins (safe defaults) ---
           plugin_isocalendar: yes               # yearly contributions calendar
-          plugin_languages: yes                 # top languages
-          plugin_languages_details: percentage
-          plugin_languages_limit: 8
-          plugin_followup: yes                  # issues / PRs counts
-          plugin_repositories: yes              # pin popular repos
+
